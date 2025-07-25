@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/sentry/senrefam/lowr_diff_009_a_whi"
+	"$bumpmap" "models\sentry\senrefam\lowr_normal_009"
+	"$phongexponenttexture" "models\sentry\senrefam\lowr_spec_009"
+	"$surfaceprop" "flesh"
+	"$model" 1
+
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "0.05"	
+	"$phongfresnelranges"	"[.1 0.2 1]"
+	"$halflambert" "1"
+
+
+	"$rimlight" "1"										
+	"$rimlightexponent" "20"							
+	"$rimlightboost" "0.1"
+	
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\sentry/hl2/faces\fem_upper_bvh3"
+	"$bumpmap" "models\sentry/hl2/faces\fem_Upper_nm"
+	"$halflambert" 1
+}

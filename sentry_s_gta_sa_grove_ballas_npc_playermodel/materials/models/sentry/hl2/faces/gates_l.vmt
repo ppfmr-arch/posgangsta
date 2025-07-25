@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/sentry/hl2/faces/gates_l"
+	//"$envmapsphere" 1
+	"$halflambert" 1
+}

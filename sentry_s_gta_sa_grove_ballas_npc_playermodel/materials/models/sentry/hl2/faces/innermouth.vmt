@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\sentry\hl2\faces\innermouth"
+	"$model" 1
+	"$nocull" 1
+	//"$bumpmap"	"proto\Blouses_01_Normal"
+}

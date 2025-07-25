@@ -1,0 +1,7 @@
+"Teeth"
+{
+	"$basetexture" "models/sentry/hl2/faces/mouth"
+	"$model" 1
+	"$clientshader" "MouthShader"
+	"$halflambert" 1
+}

@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/sentry/senrefam/jbib_diff_007_b_uni"
+	"$bumpmap" "models\sentry\senrefam\jbib_normal_007"
+	"$phongexponenttexture" "models\sentry\senrefam\jbib_spec_007"
+	"$surfaceprop" "flesh"
+	"$model" 1
+	"$nocull" 1
+
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "0.05"	
+	"$phongfresnelranges"	"[.1 0.2 1]"
+	"$halflambert" "1"
+
+
+	"$rimlight" "1"										
+	"$rimlightexponent" "20"							
+	"$rimlightboost" "0.1"
+	
+}

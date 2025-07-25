@@ -1,0 +1,5 @@
+"unlitgeneric"
+{
+	"$basetexture" "models/sentry/hl2/faces/pupil_y"
+	"$halflambert" 1
+}

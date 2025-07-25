@@ -1,0 +1,6 @@
+"eyes"
+{
+	"$basetexture" "models/sentry/hl2/faces/dark_eyeball_l"
+	"$iris" "models/sentry/hl2/faces/pupil_l"
+	"$halflambert" 1
+}

@@ -1,0 +1,20 @@
+net.Receive("ooc_revamp", function()
+local tableread = net.ReadTable()
+local nick = tableread.player:Nick()
+chat.AddText( Color(109, 109, 109, 255), "[OOC] ", Color( 230, 230, 230, 255), nick, ": ", Color( 255, 255, 255, 255), tableread.message )
+end)
+
+net.Receive("advert_revamp", function()
+local tableread = net.ReadTable()
+local nick = tableread.player:Nick()
+chat.AddText( Color(255, 215, 20, 255), "[Реклама] ", Color( 230, 230, 230, 255), nick, ": ", Color( 255, 255, 255, 255), tableread.message )
+end)
+
+net.Receive("ano_revamp", function()
+local message = net.ReadString()
+chat.AddText( Color(0, 0, 0, 255), "[Аноним] ", Color(255, 255, 255, 255), message )
+end)
+
+net.Receive("error_message_revamp", function()
+chat.AddText( Color(224, 37, 0, 255), "[Ошибка] ", Color(255, 255, 255, 255), "You need to specify a text" )
+end)

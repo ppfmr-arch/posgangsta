@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/sentry/hl2/faces/arms_black"
+	"$bumpmap" "models/sentry/hl2/faces/arms_normal"
+}

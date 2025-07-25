@@ -1,0 +1,7 @@
+"Eyeball"
+{
+	"$basetexture" "models/sentry/hl2/faces/pupil_t"
+	"$additive" "1"
+	"$selfillum" "1"
+
+}

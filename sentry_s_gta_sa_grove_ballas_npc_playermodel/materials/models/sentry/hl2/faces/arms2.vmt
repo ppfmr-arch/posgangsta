@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/sentry/hl2/faces/arms"
+	"$bumpmap" "models/sentry/hl2/faces/arms_normal"
+	"$phong" 1
+	"$phongboost" ".5"
+	"$phongexponent" 5
+	"$phongtint" "[.85 .85 1]"
+	"$phongfresnelranges" "[.3 .65 30]"
+}

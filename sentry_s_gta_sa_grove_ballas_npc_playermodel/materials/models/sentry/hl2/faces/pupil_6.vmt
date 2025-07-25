@@ -1,0 +1,5 @@
+"unLitGeneric"
+{
+	"$basetexture" "models/sentry/hl2/faces/pupil_6"
+	"$selfillum" "1"
+}

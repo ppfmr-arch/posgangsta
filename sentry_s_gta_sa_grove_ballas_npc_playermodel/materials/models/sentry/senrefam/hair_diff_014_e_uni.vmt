@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/sentry/senrefam/hair_diff_014_e_uni"
+	"$bumpmap" "models/sentry/senrefam/hair_normal_014"
+	"$surfaceprop" "flesh"
+	"$model" 1
+
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "0.05"	
+	"$phongfresnelranges"	"[.1 0.2 1]"
+	"$halflambert" "1"
+
+	"$ambientocclusion" "0"
+	"$alphatest" "1"
+	"$allowalphatocoverage" 1
+}
