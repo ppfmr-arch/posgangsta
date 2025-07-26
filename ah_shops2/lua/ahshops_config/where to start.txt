@@ -1,0 +1,2 @@
+item: this is the section, if you want to add new items to your shops.
+main: this is the section, if you want to create a new npc.

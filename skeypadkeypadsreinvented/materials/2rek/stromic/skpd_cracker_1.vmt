@@ -1,0 +1,21 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "2rek/stromic/skpd_cracker_1"
+	"$bumpmap" "2rek/stromic/skpd_cracker_1_n"
+	"$halflambert" "1"
+	"$phong" "1"
+	"$phongboost" "2"
+	"$phongexponent" "10"
+	"$phongfresnelranges" "[.15 .15 .15]"
+	
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.05 .05 .05]"		
+	
+	
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" "1"	
+
+}

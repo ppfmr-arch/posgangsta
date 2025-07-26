@@ -1,0 +1,1 @@
+[{"Data":{"Amount":8,"Contents":5,"Class":"swb_ak47"},"Class":"spawned_shipment"},{"Data":{"Amount":1,"Clip1":30,"Ammo":30,"Class":"m9k_honeybadger","Model":"models/weapons/w_aac_honeybadger.mdl","Clip2":8},"Class":"spawned_weapon"},{"Data":{"Amount":1,"Clip1":100,"Ammo":100,"Class":"m9k_pkm","Model":"models/weapons/w_mach_russ_pkm.mdl","Clip2":8},"Class":"spawned_weapon"}]

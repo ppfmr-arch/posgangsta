@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sterling/stromic_keypad_main"
+	"$bumpmap" "sterling/stromic_keypad_norm"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.01 .01 .01]"	
+
+	"$phong" "1"
+	"$phongboost" "2"
+	"$phongexponent" "8"
+	"$phongfresnelranges" "[0.5 4.0 0.5]"	
+}

@@ -67,7 +67,7 @@ TEAM_GANG = DarkRP.createJob("YellowTrusGetto", {
     description = [[Самый низкий преступник.
         Обычно гангстер работает на босса мафии, который управляет преступной семьёй.
         Босс мафии ставит вам задачи, и вы должны их выполнять, иначе вас могут наказать.]],
-    weapons = {},
+    weapons = {"pro_lockpick","weapon_keypadcracker_01"},
     command = "gangster",
     max = 3,
     salary = GAMEMODE.Config.normalsalary,
@@ -87,7 +87,7 @@ TEAM_KABLUK = DarkRP.createJob("KablukStreetGangsta", {
     description = [[Самый низкий преступник.
         Обычно гангстер работает на босса мафии, который управляет преступной семьёй.
         Босс мафии ставит вам задачи, и вы должны их выполнять, иначе вас могут наказать.]],
-    weapons = {},
+    weapons = {"pro_lockpick","weapon_keypadcracker_01"},
     command = "kablukstreetgansta",
     max = 3,
     salary = GAMEMODE.Config.normalsalary,
@@ -101,7 +101,7 @@ TEAM_GOMODRILL = DarkRP.createJob("Gomodrill", {
     color = Color(139, 69, 19, 255), -- коричневый цвет
     model = "models/player/chimp/chimp.mdl",
     description = [[Гомодрил.]],
-    weapons = {},
+    weapons = {"pro_lockpick","weapon_keypadcracker_01"},
     command = "gomodrill",
     max = 3,
     salary = GAMEMODE.Config.normalsalary,

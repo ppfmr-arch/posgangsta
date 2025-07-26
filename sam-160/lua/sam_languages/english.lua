@@ -1,281 +1,281 @@
 return {
-	You = "You",
-	Yourself = "Yourself",
-	Themself = "Themself",
-	Everyone = "Everyone",
+	You = "Вы",
+	Yourself = "Себя",
+	Themself = "Себя",
+	Everyone = "Все",
 
-	cant_use_as_console = "You need to be a player to use {S Red} command!",
-	no_permission = "You don't have permission to use '{S Red}'!",
+	cant_use_as_console = "Вы должны быть игроком, чтобы использовать команду {S Red}!",
+	no_permission = "У вас нет прав для использования '{S Red}'!",
 
-	cant_target_multi_players = "You can't target multiple players using this command!",
-	invalid_id = "Invalid id ({S Red})!",
-	cant_target_player = "You can't target {S Red}!",
-	cant_target_self = "You can't target your self using {S Red} command!",
-	player_id_not_found = "Player with id {S Red} is not found!",
-	found_multi_players = "Found multiple players: {T}!",
-	cant_find_target = "Can't find a player to target ({S Red})!",
+	cant_target_multi_players = "Вы не можете выбрать нескольких игроков для этой команды!",
+	invalid_id = "Неверный id ({S Red})!",
+	cant_target_player = "Вы не можете выбрать {S Red}!",
+	cant_target_self = "Вы не можете выбрать себя для команды {S Red}!",
+	player_id_not_found = "Игрок с id {S Red} не найден!",
+	found_multi_players = "Найдено несколько игроков: {T}!",
+	cant_find_target = "Не удалось найти игрока для выбора ({S Red})!",
 
-	invalid = "Invalid {S} ({S_2 Red})",
-	default_reason = "none",
+	invalid = "Неверно {S} ({S_2 Red})",
+	default_reason = "нет",
 
-	menu_help = "Open admin mod menu.",
+	menu_help = "Открыть меню админа.",
 
 	-- Chat Commands
-	pm_to = "PM to {T}: {V}",
-	pm_from = "PM from {A}: {V}",
-	pm_help = "Send a personal message (PM) to a player.",
+	pm_to = "ЛС для {T}: {V}",
+	pm_from = "ЛС от {A}: {V}",
+	pm_help = "Отправить личное сообщение (ЛС) игроку.",
 
-	to_admins = "{A} to admins: {V}",
-	asay_help = "Send a message to admins.",
+	to_admins = "{A} для админов: {V}",
+	asay_help = "Отправить сообщение администраторам.",
 
-	mute = "{A} muted {T} for {V}. ({V_2})",
-	mute_help = "Stop player(s) from sending messages in chat.",
+	mute = "{A} заглушил {T} на {V}. ({V_2})",
+	mute_help = "Запретить игроку(ам) писать в чат.",
 
-	unmute = "{A} unmuted {T}.",
-	unmute_help = "Unmute player(s).",
+	unmute = "{A} снял мут с {T}.",
+	unmute_help = "Разрешить игроку(ам) писать в чат.",
 
-	you_muted = "You are muted.",
+	you_muted = "Вы заглушены.",
 
-	gag = "{A} gagged {T} for {V}. ({V_2})",
-	gag_help = "Stop player(s) from speaking.",
+	gag = "{A} запретил говорить {T} на {V}. ({V_2})",
+	gag_help = "Запретить игроку(ам) говорить.",
 
-	ungag = "{A} ungagged {T}.",
-	ungag_help = "Ungag player(s).",
+	ungag = "{A} разрешил говорить {T}.",
+	ungag_help = "Разрешить игроку(ам) говорить.",
 
 	-- Fun Commands
-	slap = "{A} slapped {T}.",
-	slap_damage = "{A} slapped {T} with {V} damage.",
-	slap_help = "Slap asses.",
+	slap = "{A} шлёпнул {T}.",
+	slap_damage = "{A} шлёпнул {T} с уроном {V}.",
+	slap_help = "Шлёпнуть игрока.",
 
-	slay = "{A} slayed {T}.",
-	slay_help = "Slay player(s).",
+	slay = "{A} убил {T}.",
+	slay_help = "Убить игрока.",
 
-	set_hp = "{A} set the hp for {T} to {V}.",
-	hp_help = "Set health for player(s).",
+	set_hp = "{A} установил здоровье для {T} на {V}.",
+	hp_help = "Установить здоровье игроку.",
 
-	set_armor = "{A} set the armor for {T} to {V}.",
-	armor_help = "Set armor for player(s).",
+	set_armor = "{A} установил броню для {T} на {V}.",
+	armor_help = "Установить броню игроку.",
 
-	ignite = "{A} ignited {T} for {V}.",
-	ignite_help = "Ignite player(s).",
+	ignite = "{A} поджёг {T} на {V}.",
+	ignite_help = "Поджечь игрока.",
 
-	unignite = "{A} extinguished {T}.",
-	unignite_help = "Extinguish player(s).",
+	unignite = "{A} потушил {T}.",
+	unignite_help = "Потушить игрока.",
 
-	god = "{A} enabled god mode for {T}.",
-	god_help = "Enable god mode for player(s).",
+	god = "{A} включил режим бога для {T}.",
+	god_help = "Включить режим бога для игрока.",
 
-	ungod = "{A} disabled god mode for {T}.",
-	ungod_help = "Disable god mode for player(s).",
+	ungod = "{A} выключил режим бога для {T}.",
+	ungod_help = "Выключить режим бога для игрока.",
 
-	freeze = "{A} froze {T}.",
-	freeze_help = "Freeze player(s).",
+	freeze = "{A} заморозил {T}.",
+	freeze_help = "Заморозить игрока.",
 
-	unfreeze = "{A} unfroze {T}.",
-	unfreeze_help = "Unfreeze player(s).",
+	unfreeze = "{A} разморозил {T}.",
+	unfreeze_help = "Разморозить игрока.",
 
-	cloak = "{A} cloaked {T}.",
-	cloak_help = "Cloak player(s).",
+	cloak = "{A} сделал невидимым {T}.",
+	cloak_help = "Сделать игрока невидимым.",
 
-	uncloak = "{A} uncloaked {T}.",
-	uncloak_help = "Uncloak player(s).",
+	uncloak = "{A} сделал видимым {T}.",
+	uncloak_help = "Сделать игрока видимым.",
 
-	jail = "{A} jailed {T} for {V}. ({V_2})",
-	jail_help = "Jail player(s).",
+	jail = "{A} посадил {T} в тюрьму на {V}. ({V_2})",
+	jail_help = "Посадить игрока в тюрьму.",
 
-	unjail = "{A} unjailed {T}.",
-	unjail_help = "Unjail player(s).",
+	unjail = "{A} выпустил {T} из тюрьмы.",
+	unjail_help = "Выпустить игрока из тюрьмы.",
 
-	strip = "{A} stripped weapons from {T}.",
-	strip_help = "Strip weapons from player(s).",
+	strip = "{A} забрал оружие у {T}.",
+	strip_help = "Забрать оружие у игрока.",
 
-	respawn = "{A} respawned {T}.",
-	respawn_help = "Respawn player(s).",
+	respawn = "{A} возродил {T}.",
+	respawn_help = "Возродить игрока.",
 
-	setmodel = "{A} set the model for {T} to {V}.",
-	setmodel_help = "Change player(s)'s model.",
+	setmodel = "{A} сменил модель для {T} на {V}.",
+	setmodel_help = "Сменить модель игрока.",
 
-	giveammo = "{A} gave {T} {V} ammo.",
-	giveammo_help = "Give player(s) ammo.",
+	giveammo = "{A} выдал {T} {V} патронов.",
+	giveammo_help = "Выдать патроны игроку.",
 
-	scale = "{A} set model scale for {T} to {V}.",
-	scale_help = "Scale player(s).",
+	scale = "{A} изменил размер модели для {T} на {V}.",
+	scale_help = "Изменить размер игрока.",
 
-	freezeprops = "{A} froze all props.",
-	freezeprops_help = "Freezes all props on the map.",
+	freezeprops = "{A} заморозил все пропы.",
+	freezeprops_help = "Заморозить все пропы на карте.",
 
 	-- Teleport Commands
-	dead = "You are dead!",
-	leave_car = "Leave the vehicle first!",
+	dead = "Вы мертвы!",
+	leave_car = "Сначала выйдите из машины!",
 
-	bring = "{A} teleported {T}.",
-	bring_help = "Bring a player.",
+	bring = "{A} телепортировал {T}.",
+	bring_help = "Телепортировать игрока к себе.",
 
-	goto = "{A} teleported to {T}.",
-	goto_help = "Goto a player.",
+	goto = "{A} телепортировался к {T}.",
+	goto_help = "Телепортироваться к игроку.",
 
-	no_location = "No previous location to return {T} to.",
-	returned = "{A} returned {T}.",
-	return_help = "Return a player to where he was.",
+	no_location = "Нет предыдущего места для возврата {T}.",
+	returned = "{A} вернул {T}.",
+	return_help = "Вернуть игрока на прежнее место.",
 
 	-- User Management Commands
-	setrank = "{A} set the rank for {T} to {V} for {V_2}.",
-	setrank_help = "Set a player's rank.",
-	setrankid_help = "Set a player's rank by his steamid/steamid64.",
+	setrank = "{A} установил ранг для {T} на {V} на {V_2}.",
+	setrank_help = "Установить ранг игроку.",
+	setrankid_help = "Установить ранг игроку по steamid/steamid64.",
 
-	addrank = "{A} created a new rank {V}.",
-	addrank_help = "Create a new rank.",
+	addrank = "{A} создал новый ранг {V}.",
+	addrank_help = "Создать новый ранг.",
 
-	removerank = "{A} removed rank {V}.",
-	removerank_help = "Remove a rank.",
+	removerank = "{A} удалил ранг {V}.",
+	removerank_help = "Удалить ранг.",
 
-	super_admin_access = "superadmin has access to everything!",
+	super_admin_access = "superadmin имеет доступ ко всему!",
 
-	giveaccess = "{A} granted access {V} to {T}.",
-	givepermission_help = "Give permission to rank.",
+	giveaccess = "{A} выдал доступ {V} для {T}.",
+	givepermission_help = "Выдать разрешение рангу.",
 
-	takeaccess = "{A} taken access {V} from {T}.",
-	takepermission_help = "Take permission from rank.",
+	takeaccess = "{A} забрал доступ {V} у {T}.",
+	takepermission_help = "Забрать разрешение у ранга.",
 
-	renamerank = "{A} renamed rank {T} to {V}.",
-	renamerank_help = "Rename rank.",
+	renamerank = "{A} переименовал ранг {T} в {V}.",
+	renamerank_help = "Переименовать ранг.",
 
-	changeinherit = "{A} changed the rank to inherit from for {T} to {V}.",
-	changeinherit_help = "Change the rank to inherit from.",
+	changeinherit = "{A} изменил наследование ранга для {T} на {V}.",
+	changeinherit_help = "Изменить наследование ранга.",
 
-	rank_immunity = "{A} changed rank {T}'s immunity to {V}.",
-	changerankimmunity_help = "Change rank immunity.",
+	rank_immunity = "{A} изменил иммунитет ранга {T} на {V}.",
+	changerankimmunity_help = "Изменить иммунитет ранга.",
 
-	rank_ban_limit = "{A} changed rank {T}'s ban limit to {V}.",
-	changerankbanlimit_help = "Change rank ban limit.",
+	rank_ban_limit = "{A} изменил лимит бана ранга {T} на {V}.",
+	changerankbanlimit_help = "Изменить лимит бана ранга.",
 
-	changeranklimit = "{A} changed {V} limit for {T} to {V_2}.",
-	changeranklimit_help = "Change rank limits.",
+	changeranklimit = "{A} изменил лимит {V} для {T} на {V_2}.",
+	changeranklimit_help = "Изменить лимиты ранга.",
 
 	-- Utility Commands
-	map_change = "{A} changing the map to {V} in 10 seconds.",
-	map_change2 = "{A} changing the map to {V} with gamemode {V_2} in 10 seconds.",
-	map_help = "Change current map and gamemode.",
+	map_change = "{A} сменит карту на {V} через 10 секунд.",
+	map_change2 = "{A} сменит карту на {V} с режимом {V_2} через 10 секунд.",
+	map_help = "Сменить карту и режим.",
 
-	map_restart = "{A} restarting the map in 10 seconds.",
-	map_restart_help = "Restart current map.",
+	map_restart = "{A} перезапустит карту через 10 секунд.",
+	map_restart_help = "Перезапустить карту.",
 
-	mapreset = "{A} reset the map.",
-	mapreset_help = "Reset the map.",
+	mapreset = "{A} сбросил карту.",
+	mapreset_help = "Сбросить карту.",
 
-	kick = "{A} kicked {T} Reason: {V}.",
-	kick_help = "Kick a player.",
+	kick = "{A} кикнул {T}. Причина: {V}.",
+	kick_help = "Кикнуть игрока.",
 
-	ban = "{A} banned {T} for {V} ({V_2}).",
-	ban_help = "Ban a player.",
+	ban = "{A} забанил {T} на {V} ({V_2}).",
+	ban_help = "Забанить игрока.",
 
-	banid = "{A} banned ${T} for {V} ({V_2}).",
-	banid_help = "Ban a player using his steamid.",
+	banid = "{A} забанил ${T} на {V} ({V_2}).",
+	banid_help = "Забанить игрока по steamid.",
 
 	-- ban message when admin name doesn't exists
 	ban_message = [[
 
 
-		You are banned by: {S}
+		Вы забанены: {S}
 
-		Reason: {S_2}
+		Причина: {S_2}
 
-		You will be unbanned in: {S_3}]],
+		Разбан через: {S_3}]],
 
 	-- ban message when admin name exists
 	ban_message_2 = [[
 
 
-		You are banned by: {S} ({S_2})
+		Вы забанены: {S} ({S_2})
 
-		Reason: {S_3}
+		Причина: {S_3}
 
-		You will be unbanned in: {S_4}]],
+		Разбан через: {S_4}]],
 
-	unban = "{A} unbanned {T}.",
-	unban_help = "Unban a player using his steamid.",
+	unban = "{A} разбанил {T}.",
+	unban_help = "Разбанить игрока по steamid.",
 
-	noclip = "{A} has toggled noclip for {T}.",
-	noclip_help = "Toggle noclip on player(s).",
+	noclip = "{A} включил noclip для {T}.",
+	noclip_help = "Включить noclip для игрока.",
 
-	cleardecals = "{A} cleared ragdolls and decals for all players.",
-	cleardecals_help = "Clear ragdolls and decals for all players.",
+	cleardecals = "{A} удалил тряпки и декали для всех игроков.",
+	cleardecals_help = "Удалить тряпки и декали для всех игроков.",
 
-	stopsound = "{A} stopped all sounds.",
-	stopsound_help = "Stop all sounds for all players.",
+	stopsound = "{A} остановил все звуки.",
+	stopsound_help = "Остановить все звуки для всех игроков.",
 
-	not_in_vehicle = "You are not in a vehicle!",
-	not_in_vehicle2 = "{S Blue} is not in a vehicle!",
-	exit_vehicle = "{A} forced {T} to get out from a vehicle.",
-	exit_vehicle_help = "Force a player out of a vehicle.",
+	not_in_vehicle = "Вы не в машине!",
+	not_in_vehicle2 = "{S Blue} не в машине!",
+	exit_vehicle = "{A} заставил {T} выйти из машины.",
+	exit_vehicle_help = "Выгнать игрока из машины.",
 
-	time_your = "Your total time is {V}.",
-	time_player = "{T} total time is {V}.",
-	time_help = "Check a player's time.",
+	time_your = "Ваше общее время: {V}.",
+	time_player = "Общее время {T}: {V}.",
+	time_help = "Проверить время игрока.",
 
-	admin_help = "Activate admin mode.",
-	unadmin_help = "Deactivate admin mode.",
+	admin_help = "Включить режим админа.",
+	unadmin_help = "Выключить режим админа.",
 
-	buddha = "{A} enabled buddha mode for {T}.",
-	buddha_help = "Make player(s) godmoded when their health is 1.",
+	buddha = "{A} включил режим будды для {T}.",
+	buddha_help = "Игрок не может умереть, когда здоровье 1.",
 
-	unbuddha = "{A} disabled buddha mode for {T}.",
-	unbuddha_help = "Disable buddha mode for player(s).",
+	unbuddha = "{A} выключил режим будды для {T}.",
+	unbuddha_help = "Отключить режим будды для игрока.",
 
-	give = "{A} gave {T} {V}.",
-	give_help = "Give player(s) weapon/entity",
+	give = "{A} выдал {T} {V}.",
+	give_help = "Выдать оружие/предмет игроку.",
 
 	-- DarkRP Commands
-	arrest = "{A} arrested {T} forever.",
-	arrest2 = "{A} arrested {T} for {V} seconds.",
-	arrest_help = "Arrest player(s).",
+	arrest = "{A} арестовал {T} навсегда.",
+	arrest2 = "{A} арестовал {T} на {V} секунд.",
+	arrest_help = "Арестовать игрока.",
 
-	unarrest = "{A} unarrested {T}.",
-	unarrest_help = "Unarrest player(s).",
+	unarrest = "{A} освободил {T}.",
+	unarrest_help = "Освободить игрока.",
 
-	setmoney = "{A} set money for {T} to {V}.",
-	setmoney_help = "Set money for a player.",
+	setmoney = "{A} установил деньги для {T} на {V}.",
+	setmoney_help = "Установить деньги игроку.",
 
-	addmoney = "{A} added {V} for {T}.",
-	addmoney_help = "Add money for a player.",
+	addmoney = "{A} добавил {V} для {T}.",
+	addmoney_help = "Добавить деньги игроку.",
 
-	door_invalid = "invalid door to sell.",
-	door_no_owner = "no one owns this door.",
+	door_invalid = "Неверная дверь для продажи.",
+	door_no_owner = "У двери нет владельца.",
 
-	selldoor = "{A} sold a door/vehicle for {T}.",
-	selldoor_help = "Unown the door/vehicle you are looking at.",
+	selldoor = "{A} продал дверь/транспорт для {T}.",
+	selldoor_help = "Продать дверь/транспорт, на который вы смотрите.",
 
-	sellall = "{A} sold every door/vehicle for {T}.",
-	sellall_help = "Sell every door/vehicle owned for a player.",
+	sellall = "{A} продал все двери/транспорт для {T}.",
+	sellall_help = "Продать все двери/транспорт игрока.",
 
-	s_jail_pos = "{A} set a new jail position.",
-	setjailpos_help = "Resets all jail positions and sets a new one at your location.",
+	s_jail_pos = "{A} установил новую позицию тюрьмы.",
+	setjailpos_help = "Сбросить все позиции тюрьмы и установить новую на вашей позиции.",
 
-	a_jail_pos = "{A} added a new jail position.",
-	addjailpos_help = "Adds a jail position at your current location.",
+	a_jail_pos = "{A} добавил новую позицию тюрьмы.",
+	addjailpos_help = "Добавить позицию тюрьмы на вашей позиции.",
 
-	setjob = "{A} set {T}'s job to {V}.",
-	setjob_help = "Change a player's job.",
+	setjob = "{A} сменил работу {T} на {V}.",
+	setjob_help = "Сменить работу игрока.",
 
-	shipment = "{A} spawned {V} shipment.",
-	shipment_help = "Spawn a shipment.",
+	shipment = "{A} заспавнил поставку {V}.",
+	shipment_help = "Заспавнить поставку.",
 
-	forcename = "{A} set the name for {T} to {V}.",
-	forcename_taken = "Name already taken. ({V})",
-	forcename_help = "Force name for a player.",
+	forcename = "{A} сменил имя {T} на {V}.",
+	forcename_taken = "Имя уже занято. ({V})",
+	forcename_help = "Сменить имя игрока.",
 
-	report_claimed = "{A} claimed a report submitted by {T}.",
-	report_closed = "{A} closed a report submitted by {T}.",
-	report_aclosed = "Your report is closed. (Time expired)",
+	report_claimed = "{A} взял репорт от {T}.",
+	report_closed = "{A} закрыл репорт от {T}.",
+	report_aclosed = "Ваш репорт закрыт. (Время истекло)",
 
-	rank_expired = "{V} rank for {T} expired.",
+	rank_expired = "Ранг {V} для {T} истёк.",
 
 	-- TTT Commands
-	setslays = "{A} set amount of auto-slays for {T} to {V}.",
-	setslays_help = "Set amount of rounds to auto-slay a player for.",
+	setslays = "{A} установил количество автокиллов для {T} на {V}.",
+	setslays_help = "Установить количество раундов для автокилла игрока.",
 
-	setslays_slayed = "{T} got auto-slayed, slays left: {V}.",
+	setslays_slayed = "{T} был автокиллен, осталось: {V}.",
 
-	removeslays = "{A} removed auto-slays for {T}.",
-	removeslays_help = "Remove auto-slays for a player."
+	removeslays = "{A} убрал автокиллы для {T}.",
+	removeslays_help = "Убрать автокиллы для игрока."
 }
