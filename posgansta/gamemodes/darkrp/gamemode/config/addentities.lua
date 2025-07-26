@@ -6,7 +6,6 @@ DarkRP.createShipment("Desert eagle", {
     separate = true,
     pricesep = 2500,
     noship = true,
-    allowed = {TEAM_GUN},
     category = "Pistols",
 })
 
@@ -18,7 +17,6 @@ DarkRP.createShipment("Fiveseven", {
     separate = true,
     pricesep = 2150,
     noship = true,
-    allowed = {TEAM_GUN},
     category = "Pistols",
 })
 
@@ -30,7 +28,6 @@ DarkRP.createShipment("Glock", {
     separate = true,
     pricesep = 2500,
     noship = true,
-    allowed = {TEAM_GUN},
     category = "Pistols",
 })
 
@@ -42,7 +39,6 @@ DarkRP.createShipment("P228", {
     separate = true,
     pricesep = 2100,
     noship = true,
-    allowed = {TEAM_GUN},
     category = "Pistols",
 })
 
@@ -54,7 +50,6 @@ DarkRP.createShipment("AK47", {
     separate = false,
     pricesep = nil,
     noship = false,
-    allowed = {TEAM_GUN},
     category = "Rifles",
 })
 
@@ -66,7 +61,6 @@ DarkRP.createShipment("MP5", {
     separate = false,
     pricesep = nil,
     noship = false,
-    allowed = {TEAM_GUN},
     category = "Rifles",
 })
 
@@ -78,7 +72,6 @@ DarkRP.createShipment("M4", {
     separate = false,
     pricesep = nil,
     noship = false,
-    allowed = {TEAM_GUN},
     category = "Rifles",
 })
 
@@ -90,7 +83,6 @@ DarkRP.createShipment("Mac 10", {
     separate = false,
     pricesep = nil,
     noship = false,
-    allowed = {TEAM_GUN}
 })
 
 DarkRP.createShipment("Pump shotgun", {
@@ -101,7 +93,6 @@ DarkRP.createShipment("Pump shotgun", {
     separate = false,
     pricesep = nil,
     noship = false,
-    allowed = {TEAM_GUN},
     category = "Shotguns",
 })
 
@@ -113,7 +104,17 @@ DarkRP.createShipment("Sniper rifle", {
     separate = false,
     pricesep = nil,
     noship = false,
-    allowed = {TEAM_GUN},
+    category = "Snipers",
+})
+
+DarkRP.createShipment("AWP", {
+    model = "models/weapons/w_snip_awp.mdl",
+    entity = "swb_awp",
+    price = 525000,
+    amount = 10,
+    separate = false,
+    pricesep = nil,
+    noship = false,
     category = "Snipers",
 })
 

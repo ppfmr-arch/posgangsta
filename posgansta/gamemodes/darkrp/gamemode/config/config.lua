@@ -360,7 +360,7 @@ GM.Config.DisallowDrop = {
     ["keys"] = true,
     ["lockpick"] = true,
     ["med_kit"] = true,
-    ["pocket"] = true,
+    ["itemstore_pickup"] = true,
     ["stunstick"] = true,
     ["unarrest_stick"] = true,
     ["weapon_keypadchecker"] = true,
@@ -375,7 +375,7 @@ GM.Config.DefaultWeapons = {
     "weapon_physcannon",
     "gmod_camera",
     "gmod_tool",
-    "pocket",
+    "itemstore_pickup",
     "weapon_physgun",
 }
 

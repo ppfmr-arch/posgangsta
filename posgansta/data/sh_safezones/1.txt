@@ -1,1 +1,0 @@
-{"points":["[-1663.5 -1343.9688 64.2812]","[-1247.4688 -991.5625 72.0312]"],"shape":1,"map":"rp_bangclaw","date":1753477868,"creator":"STEAM_0:0:510485001","size":1024,"opts":{"namecolor":"52,152,219","ptime":5,"noprop":true,"noatk":true,"entermsg":"","leavemsg":"","pusg":"","name":"SPAWN","noveh":true,"hud":true,"nonpc":true}}

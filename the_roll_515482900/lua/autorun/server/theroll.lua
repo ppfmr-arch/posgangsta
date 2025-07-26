@@ -1,5 +1,5 @@
 concommand.Add( "rollthedice", function( ply )
-	PrintMessage( HUD_PRINTTALK, ply:Nick().." has rolled a "..math.random(1,100)..".")
+	PrintMessage( HUD_PRINTTALK, ply:Nick().." крутанул "..math.random(1,100)..".")
 end )
 
 function RollCommand( pl, text, teamonly )

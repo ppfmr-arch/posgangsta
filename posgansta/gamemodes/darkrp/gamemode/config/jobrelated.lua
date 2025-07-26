@@ -77,7 +77,7 @@ TEAM_GANG = DarkRP.createJob("YellowTrusGetto", {
     category = "Бандиты",
 })
 
-TEAM_KABLUK = DarkRP.createJob("KablukStreetGansta", {
+TEAM_KABLUK = DarkRP.createJob("KablukStreetGangsta", {
     color = Color(255, 0, 255, 255),
     model = {
         "models/sentry/senfembal/sentrybal3male1pm.mdl",

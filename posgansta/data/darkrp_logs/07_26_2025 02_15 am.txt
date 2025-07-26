@@ -1,5 +1,0 @@
-Sat Jul 26 02:15:25 2025	PabwlHDndNzlIEVY (STEAM_0:0:510485001) has joined the game
-Sat Jul 26 02:15:25 2025	PabwlHDndNzlIEVY (STEAM_0:0:510485001) spawned
-Sat Jul 26 02:15:49 2025	PabwlHDndNzlIEVY (STEAM_0:0:510485001) has dropped $434
-Sat Jul 26 02:16:51 2025	PabwlHDndNzlIEVY (STEAM_0:0:510485001): /advert dsad
-Sat Jul 26 02:16:56 2025	PabwlHDndNzlIEVY (STEAM_0:0:510485001): /advert asdasd

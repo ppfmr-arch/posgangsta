@@ -39,11 +39,16 @@ MoonContextMenu.config_cmds = {
                 icon = 'schedule'
             },
             {
-                name = 'Третье лицо',
+                name = 'Купить патроны',
                 func = function()
-                    RunConsoleCommand('third_person_menu')
+                    local lply = LocalPlayer()
+                    local wep = lply:GetActiveWeapon()
+                    if not IsValid(wep) then return end
+                    local prim = wep.Primary and wep.Primary.Ammo or game.GetAmmoName(wep:GetPrimaryAmmoType())
+                    if not prim or prim == "" then return end
+                    RunConsoleCommand("darkrp", "buyammo", prim)
                 end,
-                icon = 'camera'
+                icon = 'gun'
             }
         }
     },
