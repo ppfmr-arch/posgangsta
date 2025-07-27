@@ -1,0 +1,7 @@
+Drop Stungun in your addons folder.
+
+Enter Stungun/lua/weapons/stungun/config.lua for config, more info there.
+
+Make a ticket on gmodstore if you need any help.
+
+Please write a review on the script page. It really helps both you and me! (You as in, more sales = bigger motivation from me)

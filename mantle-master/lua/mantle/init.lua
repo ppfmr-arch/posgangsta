@@ -58,7 +58,7 @@ local function InitLib()
     local color_div = Color(168, 109, 236)
 
     MsgC(color_white, '------------------\n')
-    MsgC(Color(0, 255, 0), '| Mantle LIBRARY |\n')
+    MsgC(Color(0, 255, 0), '| Библиотека Mantle |\n')
     MsgC(color_white, '------------------\n')
 
     Mantle = Mantle or {}

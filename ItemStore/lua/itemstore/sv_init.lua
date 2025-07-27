@@ -61,18 +61,18 @@ concommand.Add( "itemstore_support", function( pl, cmd, args )
 
 	local token = args[ 1 ]
 	if not token then
-		respond( "Error: token not defined. Please create a support ticket and ask for one." )
+		respond( "Ошибка: токен не определён. Пожалуйста, создайте тикет поддержки и запросите токен." )
 		return
 	end
 
-	local user = IsValid( pl ) and pl:Name() .. " (" .. pl:SteamID() .. ")" or "Console"
+	local user = IsValid( pl ) and pl:Name() .. " (" .. pl:SteamID() .. ")" or "Консоль"
 	local ip, port = string.match( game.GetIPAddress(), "(%d.%d.%d.%d):(%d)" )
 	local hostname = GetHostName()
 	local ws_addons, legacy_addons = file.Find( "addons/*", "GAME" )
 	local config = file.Read( "itemstore/config.lua", "LUA" ) or ""
 	local errors = file.Read( "lua_errors_server.txt", "GAME" ) or ""
 
-	respond( "Uploading support information..." )
+	respond( "Загрузка информации для поддержки..." )
 
 	http.Post( "https://uselessghost.me/itemstore/support.php", {
 		token = token,
@@ -88,15 +88,15 @@ concommand.Add( "itemstore_support", function( pl, cmd, args )
 		local json = util.JSONToTable( data )
 		
 		if not json then
-			respond( "Error: Invalid data received." )
+			respond( "Ошибка: получены некорректные данные." )
 			respond( data )
 			return
 		end
 
 		if json.success then
-			respond( "Support information uploaded." )
+			respond( "Информация для поддержки загружена." )
 		else
-			respond( "Support information upload failed: " .. json.error )
+			respond( "Ошибка загрузки информации для поддержки: " .. json.error )
 		end
 	end )
 end )

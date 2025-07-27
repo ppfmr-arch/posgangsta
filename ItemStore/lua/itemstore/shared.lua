@@ -1,11 +1,11 @@
 itemstore.Version = "3.0"
 itemstore.About = string.format( [[ItemStore v%s
 
-Authored solely by UselessGhost
+Автор: UselessGhost
 http://steamcommunity.com/id/uselessghost
 ]], itemstore.Version )
 
-MsgC( color_white, "ItemStore", Color( 100, 200, 255 ), " ", itemstore.Version, " ", Color( 200, 200, 200 ), "coded by ", Color( 255, 150, 150 ), "UselessGhost", "\n" )
+MsgC( color_white, "ItemStore", Color( 100, 200, 255 ), " ", itemstore.Version, " ", Color( 200, 200, 200 ), "код: ", Color( 255, 150, 150 ), "UselessGhost", "\n" )
 
 concommand.Add( "itemstore_about", function()
 	MsgC( color_white, itemstore.About )
@@ -15,7 +15,7 @@ itemstore.config = {}
 
 function itemstore.config.Verify( setting, correct_type )
 	if type( itemstore.config[ setting ] ) ~= correct_type then
-		ErrorNoHalt( string.format( "[ItemStore] Configuration error: %s is %s, should be %s.", setting, var_type, correct_type ) )
+		ErrorNoHalt( string.format( "[ItemStore] Ошибка конфигурации: %s имеет тип %s, должен быть %s.", setting, var_type, correct_type ) )
 		--include( "config_default.lua" )
 
 		return false
@@ -60,7 +60,7 @@ include( "admin.lua" )
 
 local _, dirs = file.Find( "itemstore/modules/*", "LUA" )
 for _, mod in ipairs( dirs ) do
-	MsgC( color_white, string.format( "Loading ItemStore module: %s\n", mod ) )
+	MsgC( color_white, string.format( "Загрузка модуля ItemStore: %s\n", mod ) )
 
 	local path = "itemstore/modules/" .. mod
 

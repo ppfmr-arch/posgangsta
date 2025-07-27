@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "stungun\icon_stungun"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$translucent" 1
+}

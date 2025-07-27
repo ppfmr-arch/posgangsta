@@ -45,15 +45,15 @@ TEAM_POLICE = DarkRP.createJob("Полицейский", {
         Таран может выбить дверь преступника при наличии ордера на арест.
         Таран также может разморозить замороженные предметы (если включено).
         Введите /wanted <имя>, чтобы объявить игрока в розыск.]],
-    weapons = {"arrest_stick", "unarrest_stick", "m9k_usp", "stunstick", "door_ram", "weaponchecker", "m9k_m16a4_acog"},
+    weapons = {"arrest_stick", "unarrest_stick", "m9k_usp", "stunstick", "door_ram", "weaponchecker", "m9k_m16a4_acog", "stungun", "weapon_r_handcuffs"},
     command = "cp",
     max = 4,
-    salary = GAMEMODE.Config.normalsalary * 1.45,
+    salary = GAMEMODE.Config.normalsalary * 30,
     admin = 0,
     vote = false,
     hasLicense = true,
     ammo = {
-        ["pistol"] = 60,
+        ["ammo_stungun"] = 9999,
     },
     category = "Правоохранительные органы",
 })
@@ -122,17 +122,17 @@ TEAM_CHIEF = DarkRP.createJob("Шеф полиции", {
         Таран может выбить дверь преступника при наличии ордера на арест.
         Введите /wanted <имя>, чтобы объявить игрока в розыск.
         Введите /jailpos для установки позиции тюрьмы.]],
-    weapons = {"arrest_stick", "unarrest_stick", "m9k_m29satan", "stunstick", "door_ram", "weaponchecker", "m9k_m4a4"},
+    weapons = {"arrest_stick", "unarrest_stick", "m9k_m29satan", "stunstick", "door_ram", "weaponchecker", "m9k_m4a4", "stungun", "weapon_r_handcuffs"},
     command = "chief",
     max = 1,
-    salary = GAMEMODE.Config.normalsalary * 1.67,
+    salary = GAMEMODE.Config.normalsalary * 60,
     admin = 0,
     vote = false,
     hasLicense = true,
     chief = true,
     NeedToChangeFrom = TEAM_POLICE,
     ammo = {
-        ["pistol"] = 60,
+        ["ammo_stungun"] = 9999,
     },
     category = "Правоохранительные органы",
 })
@@ -151,7 +151,7 @@ TEAM_MAYOR = DarkRP.createJob("Мэр", {
     weapons = {},
     command = "mayor",
     max = 1,
-    salary = GAMEMODE.Config.normalsalary * 1.89,
+    salary = GAMEMODE.Config.normalsalary * 75,
     admin = 0,
     vote = true,
     hasLicense = false,
